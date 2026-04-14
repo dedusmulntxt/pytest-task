@@ -2,14 +2,14 @@
 
 script to test the validity of 3 files (GTN.xlsx, Payrun.xlsx, mappings.json) according to the following 8 conditions:
 
-1 - Files exist and are in proper format
-2 - GTN does not have line breaks between headers and data
-3 - GTN's header is on first row with no gaps
-4 - All employees in Payrun exist in GTN
-5 - All employees in GTN exist in Payrun
-6 - All pay elements outlined in mappings exist in Payrun
-7 - All pay elements outlined in mappings exist in GTN
-8 - All pay elements in GTN are of numeric type
+1 - Files exist and are in proper format  
+2 - GTN does not have line breaks between headers and data  
+3 - GTN's header is on first row with no gaps  
+4 - All employees in Payrun exist in GTN  
+5 - All employees in GTN exist in Payrun  
+6 - All pay elements outlined in mappings exist in Payrun  
+7 - All pay elements outlined in mappings exist in GTN  
+8 - All pay elements in GTN are of numeric type  
 
 folders 1-8 have defective data designed to fail these tests, folder "proper" has normal data
 
